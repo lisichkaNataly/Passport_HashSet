@@ -60,11 +60,11 @@ public class Passport {
 
     @Override
     public String toString() {
-        return "Номер паспорта: " + getPassportNumbers() +
-                " Фамилия: " + getSurName() +
-                " Имя: " + getName() +
-                " Отчество: " + getLastName() +
-                " Дата рождения: " + getDateOfBirth();
+        return "Номер паспорта: " + passportNumbers +
+                " Фамилия: " + surName +
+                " Имя: " + name +
+                " Отчество: " + lastName +
+                " Дата рождения: " + dateOfBirth;
     }
 
     @Override

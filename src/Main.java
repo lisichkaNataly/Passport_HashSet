@@ -30,7 +30,7 @@ public class Main {
             System.out.println(itr.next());
         }
 
-        System.out.println("Данные паспорта:" + find(passportSets, "591KРB"));
+        System.out.println("Паспорт: " + find(passportSets, "591KРB"));
 
 
     }
